@@ -3,28 +3,35 @@
     padding: 0;
 }
 
-.maindiv {}
+.maindiv {
+    width: 500px;
+    padding: 20px;
+    border: 1px dotted black;
+    margin: 20px auto;
+    text-align: center;
+    position: relative;
+}
 
 .div1 {
     height: 150px;
     width: 150px;
     background-color: rgb(10, 247, 247);
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    left: 100px;
 }
 
 .div2 {
     height: 150px;
     width: 150px;
     background-color: rgb(50, 247, 1);
-    position: relative;
-    bottom: 120px;
-    left: 30px;
+    display: inline-block;
 }
 
 .div3 {
     height: 150px;
     width: 150px;
     background-color: rgb(18, 126, 250);
-    position: relative;
-    bottom: 240px;
-    left: 60px;
+    display: inline-block;
 }
