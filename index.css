@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv {}
+
+.div1 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(10, 247, 247);
+}
+
+.div2 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(50, 247, 1);
+    position: relative;
+    bottom: 120px;
+    left: 30px;
+}
+
+.div3 {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(18, 126, 250);
+    position: relative;
+    bottom: 240px;
+    left: 60px;
+}
