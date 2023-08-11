@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.maindiv {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.hoverdiv {
+    width: 300px;
+    height: 350px;
+    position: relative;
+}
+
+.hoverdiv img {
+    max-width: 100%;
+}
+
+.hoverinter h2 {
+    margin-top: 181px;
+    font-size: 30px;
+}
+
+.hoverinter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 0;
+    width: 0;
+    background: rgba(16, 3, 17, 0.4);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.hoverdiv:hover .hoverinter {
+    height: 400px;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
