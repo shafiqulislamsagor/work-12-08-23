@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.manubar {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.manubar li {
+    display: inline-block;
+}
+
+.manubar li a:hover {
+    background-color: rgb(129, 13, 48);
+    transition: 0.7s;
+}
+
+.manubar li a {
+    text-decoration: none;
+    background-color: rgb(11, 22, 22);
+    color: rgb(59, 235, 24);
+    text-shadow: 1px 1px red;
+    padding: 10px 100px;
+    border-radius: 50px;
+}
+
+.full-website {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 1300px;
+    padding: 15px;
+}
+
+.menu {
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 10px auto;
+    color: rgb(2, 151, 10);
+    text-shadow: 2px 2px rgb(3, 34, 119);
+}
+
+.banner {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.hoverdiv {
+    height: 400px;
+    width: 300px;
+    position: relative;
+}
+
+.hoverdiv img {
+    max-width: 100%;
+}
+
+.hoverinter h2 {
+    margin-top: 156px;
+    font-size: 32px;
+}
+
+.hoverinter {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 0;
+    height: 0;
+    background: rgba(93, 87, 8, 0.356);
+    visibility: hidden;
+    transition: 0.5s;
+    opacity: 0;
+    color: rgb(247, 0, 0);
+    text-shadow: 1px 1px rgb(15, 19, 233);
+}
+
+.hoverdiv:hover .hoverinter {
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+}
+
+.container {
+    text-align: start;
+    font-size: 17px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-family: 'Lobster', cursive;
+}
+
+.container ol li {
+    margin-left: 40px;
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.footer-bottom {
+    text-decoration: line-through;
+    color: rgb(4, 136, 118);
+    text-shadow: 1px 1px rgb(33, 6, 59);
+}
